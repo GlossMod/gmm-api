@@ -1,15 +1,17 @@
 {
   "name": "gmm-api",
-  "version": "1.0.2",
+  "version": "1.0.7",
   "description": "",
   "main": "index.ts",
   "author": "小莫",
   "license": "ISC",
   "scripts": {
-    "build": "tsc src/index.ts  --outDir dist "
+    "build": "tsc index.ts  --outDir dist",
+    "publish": "npm publish"
   },
   "files": [
     "src",
+    "dist",
     "*.ts",
     "*.d.ts"
   ],
@@ -24,7 +26,5 @@
   "devDependencies": {
     "@types/node": "^20.1.4"
   },
-  "dependencies": {
-    "crypto": "^1.0.1"
-  }
+  "dependencies": {}
 }
