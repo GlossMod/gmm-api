@@ -1,0 +1,24 @@
+{
+  "name": "gmm-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "author": "小莫",
+  "license": "ISC",
+  "scripts": {
+    "build": "tsc src/index.ts  --outDir dist "
+  },
+  "files": [
+    "src",
+    "*.ts",
+    "*.d.ts"
+  ],
+  "repository": "GlossMod/gmm-api",
+  "keywords": [
+    "gmm",
+    "api"
+  ],
+  "devDependencies": {
+    "@types/node": "^20.1.4"
+  }
+}

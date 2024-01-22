@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "composite": true,
+        "module": "ESNext",
+        "moduleResolution": "Node",
+        "resolveJsonModule": true,
+        "allowSyntheticDefaultImports": true,
+        "downlevelIteration": true // 添加这一行
+    },
+    "include": [
+        "package.json",
+        "src"
+    ]
+}
