@@ -40,7 +40,7 @@ export interface IStartExe {
 }
 
 export interface IGameInfo {
-    gameID: number
+    GlossGameId: number
     steamAppID: number
     installdir?: string
     gameName: string
