@@ -42,13 +42,13 @@ export interface IStartExe {
 export interface IGameInfo {
     GlossGameId: number
     steamAppID: number
-    installdir?: string
+    installdir: string
     gameName: string
     gameExe: string | IGameExe[]
-    startExe?: string | IStartExe[]
+    startExe: string | IStartExe[]
     gamePath?: string
     gameVersion?: string
-    gameCoverImg?: string
+    gameCoverImg: string
     NexusMods?: {
         game_id: number
         game_domain_name: string
